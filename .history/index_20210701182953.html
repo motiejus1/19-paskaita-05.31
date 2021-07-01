@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>19 paskaita</title>
+</head>
+<body>
+    <script>
+        "use strict";
+
+        //switch sakinys
+
+        var siosDienosData = new Date();
+        // var diena = siosDienosData.getDay(); //0 - 6
+        var diena = 7;
+
+        // 0 - sekmadienis
+        // 1 - pirmadienis
+        // 2 - antradienis
+        // 3 - treciadienis
+        // 4 - ketvirtadienis
+        // 5 - penktadienis
+        // 6 - sestadienis
+
+        //Pagal gautus kintamojo diena skaicius, isvesti savaites diena zodziais
+
+        if(diena == 0) {
+            console.log("Sekmadienis");
+        } else if (diena == 1) {
+            console.log("Pirmadienis");
+        } else if (diena == 2) {
+            console.log("Antradienis");
+        } else if (diena == 3) {
+            console.log("Treciadienis");
+        } else if (diena == 4) {
+            console.log("Ketvirtadienis");
+        } else if (diena == 5) {
+            console.log("Penktadienis");
+        } else if (diena == 6) {
+            console.log("Sestadienis");
+        } else {
+            console.log("Tokios dienos nera");
+        }
+
+        switch(diena) {
+            case 0: // diena == 0
+                console.log("Sekmadienis");
+                break;
+            case 1: // diena == 1
+                console.log("Pirmadienis");
+                break;
+            case 2:
+                console.log("Antradienis");
+                break;
+            case 3:
+                console.log("Treciadienis");
+                break;
+            case 4:
+                console.log("Ketvirtadienis");
+                break;
+            case 5:
+                console.log("Penktadienis");
+                break;
+            case 6:
+                console.log("Sestadienis");
+                break;
+
+                
+        }
+
+
+        console.log(diena);
+
+    </script>
+</body>
+</html>
